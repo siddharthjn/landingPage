@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+}
+
+nav {
+    height: 48px;
+    background-color: #4F4D53;
+}
+
+#navLinks {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.heroImg {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("media/img_hero.jpg");
+    /* Set a specific height */
+    height: 100%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid transparent
+}
+
+/* Place text in the middle of the image */
+.heroText {
+    margin-top: 150px;
+    text-align: center;
+    /* padding-bottom: 150px */
+}
+
+#heroHeading {
+    padding-bottom: 100px
+}
+
+#headImgSection {
+    align-self: center;
+    margin-top: -100px;
+}
+
+h1 {
+    font-size: 100px;
+    color: #4F4D53;
+}
+
+h2 {
+    align-self: center;
+    font-size: 64px;
+    color: #E8BE02;
+}
+
+h3 {
+    font-size: 20px;
+    color: #E8BE02;
+}
+
+
+h4 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.info h4 {
+    color: #E8BE02;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #4F4D53;
+}
+
+
+.headImg {
+    border-radius: 50%;
+    padding-right: 15px
+}
+
+#textContent {
+    align-self: center;
+    width: 50%
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactImg {
+    border-radius: 50%;
+    padding-right: 25px;
+    width: 100px;
+}
+
+.info {
+    padding-right: 40px;
+}
+
+footer {
+    margin-top: 100px;
+    height: 320px;
+    border-top: 12px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-self: stretch;
+    background-color: #4F4D53;
+}
+
+.elementFooter {
+    padding-right: 80px
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
